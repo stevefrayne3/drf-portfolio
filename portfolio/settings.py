@@ -27,7 +27,7 @@ SECRET_KEY = os.environ.get('DJANGO_SECRET_KEY')
 # SECURITY WARNING: don't run with debug turned on in production!
 DEBUG = False
 
-ALLOWED_HOSTS = ['yashavasekar.vercel.app' ,'.vercel.app']
+ALLOWED_HOSTS = ['yashavasekar.vercel.app' ,'.vercel.app' ,'172.31.24.64']
 
 
 # ALLOWED_HOSTS = ['*']
