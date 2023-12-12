@@ -27,13 +27,13 @@ SECRET_KEY = os.environ.get('DJANGO_SECRET_KEY')
 # SECURITY WARNING: don't run with debug turned on in production!
 DEBUG = False
 
-ALLOWED_HOSTS = ['yashavasekar.vercel.app' ,'.vercel.app']
+ALLOWED_HOSTS = ['yashavasekar.vercel.app' ,'.vercel.app' ,'172.31.24.64']
 
 
 # ALLOWED_HOSTS = ['*']
 # CORS_ALLOW_ALL_ORIGINS =True
 CORS_ALLOWED_ORIGINS = [
-    "http://yashavasekar.vercel.app",  # Assuming your React app is running on this address
+    "https://yashavasekar.vercel.app",  # Assuming your React app is running on this address
 ]
 
 
